@@ -1,0 +1,368 @@
+*
+
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 'poppins',sans-serif;
+}
+
+body
+
+{ 
+background-color:#fff;
+
+}
+.header
+
+{
+   
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px  10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-size: large;
+    text-shadow: #345543;
+
+}
+.navbar{
+background: color #f5f5f5;; /* Professional blue color */
+box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo{
+     
+    position:relative;
+    font-size: 50px;
+    color:#16a085;
+    text-decoration:none;
+    font-weight: 600;
+    box-shadow:0 .5rem 1.5rem rgba(0, 0, 0, .1); ;
+}
+.navbar a {
+
+    display:inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration:none;
+    font-weight: 500;
+    margin-left: 35px;
+    height: 25px;
+    background-color: rgba(16, 14, 14, 0.826);
+}
+
+
+.navbar a:hover{
+
+     color:aqua;
+
+}
+
+  
+    .home{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #151515;
+        display: flex;
+        align-items: center;
+        gap: 5em;
+        padding: 30px 7% 0;
+    }
+    
+    .home-content{
+        max-width: 800px;
+        color: #fff;
+    
+    }
+    
+    .home-content h3{
+        font-size: 42px;
+    
+    }
+    .home-content h1{
+        font-size: 35px;
+        line-height: 1.2;
+    }
+    
+    .home-content p{
+        font-size: 18px;
+        margin: 25px 0 30px;
+    
+    }
+    
+    .btn-box{
+        width: 345px;
+        display: flex;
+        gap: 2em;
+    }
+    
+    .btn-1{
+        padding: 15px 28px;
+        background-color: #16325B;
+        color: white;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.3s ease;
+        cursor: pointer;
+       margin: 10px;
+    }
+    
+    .btn-1:hover{
+        background-color: white;
+        color: #16325B;
+        border: 2px solid #16325B;
+    
+    }
+    .btn-2{
+        padding: 15px 28px;
+        background-color:  #78B7D0;
+        color: white;
+        border: 2px solid #16325B;
+        border-radius: 8px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.3s ease;
+        cursor: pointer;
+    
+    }
+    
+    .btn-2:hover{
+        background-color: white;
+        color:  #78B7D0;
+    
+    color:wheat;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+.text {
+    flex: 1;
+}
+.image {
+    flex: 1;
+    text-align: right;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* Adjust the border-radius as needed */
+}
+
+.home-sci a{
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size:20px;
+    color:#0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+
+
+}
+
+.home-sci a:hover{
+    background: #0ef;
+    color:#e4ecf2c3;
+    box-shadow: 0 0 20px #0ef;
+
+}
+.img-box img{
+    border-radius: 50%;
+    width: 550px;
+
+}
+.btn-box{
+
+
+
+
+    display:inline-block;
+    padding:12px 28px;
+   
+    border-radius:40px;
+    font-size:16px;
+    color:#030c11b2;
+    letter-spacing: 1px;
+    text-decoration:none;
+    
+}
+.btn-boxe{
+background-color: #0ef;
+
+display:inline-block;
+padding:12px 28px;
+
+border-radius:40px;
+font-size:16px;
+color:#030c11b2;
+letter-spacing: 1px;
+text-decoration:none;
+
+}
+.btn-box:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan,
+}
+
+/* About Section */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: #294744;
+
+
+}
+
+.about-img img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px  #78B7D0,
+                0 0 50px  #78B7D0;
+    border-radius: 50%;
+
+
+
+}
+
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+
+}
+
+.about-content h3{
+    font-size: 62px;
+    color: white;
+}
+
+.about-content p{
+    color:white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+
+
+
+
+/* SKILL*/
+
+.icons-container{
+    display: grid;
+    gap: 2rem;
+    grid-template-coloums:repeat(auto-fit,minmax(20rem, 1fr));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+
+
+.icons-container .icons{
+   border:var(--border);
+   box-shadow:var(--box-shadow);
+   border-radius: .5rem;
+   text-align: center;
+   padding: 2.5rem;
+}
+
+.icons-container .icons i{
+    font-size: 4.5rem;
+    color: var(--green);
+    padding-bottom:  .7rem;
+}
+
+
+.icons-container .icons h3{
+    font-size: 4.5rem;
+    color: var(--black);
+    padding-bottom:  .5rem ,0;
+    text-shadow: var(--text-shadow);
+}
+
+
+
+.icons-container .icons p{
+    font-size: 1.7rem;
+    color: var(--light-color);
+   
+}
+
+
+
+/* Portfolio Section */
+#projects .project {
+   
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    justify-content:space-between;
+    height: 70vh;
+    background-color: #f8eeda;
+
+}
+
+#projects img {
+    position: relative;
+    text-align: center;
+    width: 720px;
+    max-width: 900px;
+    border-radius: 50px;
+    border-image-width: 50vh;
+
+}
+
+#projects h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.5em; 
+    position: relative;
+    width: 100%;
+    justify-content:space-between;
+    height: 6vh;
+    background-color: #9DAAA2;
+    color:#170101;
+
+}
+
+footer {
+    background-color: #121212;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    justify-content:space-between;
+    height: 15vh;
+
+}
+
